@@ -6,7 +6,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   font: var(--font);
-  padding-inline: var(--otstup);
 }
 
 .header {
@@ -15,6 +14,7 @@
   grid-template-rows: 1fr min-content 1fr;
   block-size: 100vh;
   padding-block: var(--otstup);
+  padding-inline: var(--otstup);
 }
 
 .decorated-zone::before {
@@ -132,6 +132,7 @@
 
 .main {
   padding-block: 60px;
+  padding-inline: var(--otstup);
 }
 
 .section:not(:last-child) {
@@ -163,7 +164,6 @@
 
   &:focus-visible {
     outline: 1px solid var(--text-color);
-    
   }
 }
 
@@ -264,6 +264,7 @@
   align-items: center;
   justify-content: center;
   padding-block: var(--otstup);
+  padding-inline: var(--otstup);
 }
 
 /* media */

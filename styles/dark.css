@@ -11,15 +11,14 @@
   */
   --bg-color: #000028;
   --text-dec-color: var(--bg-color);
-  --main-color: #FF0070; 
-  --decor-color: var(--main-color); 
-  --title-color: #DB00FF;
-  --text-color: #F1B2CE;
+  --main-color: #ff0070;
+  --decor-color: var(--main-color);
+  --title-color: #db00ff;
+  --text-color: #f1b2ce;
   --shadow-color: var(--main-color);
   --text-shadow: var(--main-color);
   --rec: visible;
-  --hover-shadow: #32312D40;
+  --hover-shadow: #32312d40;
   --bg-img: url("../images/cover-image-dark.png");
   --border: 1px solid var(--main-color);
-
 }
