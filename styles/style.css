@@ -25,7 +25,7 @@
   border-block-start: var(--border);
   border-inline-end: var(--border);
   inset-block-start: var(--otstup);
-  inset-inline-end: 0px;
+  inset-inline-end: var(--otstup);
 }
 
 .decorated-zone::after {
@@ -36,7 +36,7 @@
   border-block-end: var(--border);
   border-inline-start: var(--border);
   inset-block-end: var(--otstup);
-  inset-inline-start: 0px;
+  inset-inline-start: var(--otstup);
 }
 
 .header__theme-menu-list {
@@ -79,7 +79,7 @@
   display: flex;
   align-self: flex-end;
   inset-block-start: var(--otstup);
-  inset-inline-end: calc(var(--otstup) / 2);
+  inset-inline-end: calc(var(--otstup) * 1.5);
   gap: calc(var(--otstup) / 2);
 
   &::before {
@@ -294,10 +294,6 @@
 }
 
 @media (320px <= width < 768px) {
-  :root {
-    --otstup: 10px;
-  }
-
   .header {
     align-items: center;
   }
@@ -311,17 +307,21 @@
   .header__title {
     margin: 0px;
   }
+
   .header__description {
     inline-size: 100%;
   }
 
   .rec {
-    inset-inline-end: var(--otstup);
-    gap: var(--otstup);
+    /* inset-inline-end: var(--otstup); */
+    gap: calc(var(--otstup) * 1.5);
   }
 
   .main {
     padding-block: 40px;
+  }
+
+  .section {
     --otstup: 20px;
   }
 
