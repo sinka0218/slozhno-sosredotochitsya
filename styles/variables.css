@@ -10,7 +10,7 @@
   --rec: visible;
   --hover-shadow: #32312d40;
   --bg-img: url("../images/cover-image-dark.png");
-  --font: 18px/1.3 "IBM Plex mono", sans-serif;
+  --font: 18px/1.3 "IBM Plex mono", monospace, sans-serif;
   --font_title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --otstup: 20px;
   --border: 1px solid var(--main-color);

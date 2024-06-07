@@ -13,6 +13,7 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   block-size: 100vh;
+  min-block-size: 668px;
   padding-block: var(--otstup);
   padding-inline: var(--otstup);
 }
@@ -46,6 +47,7 @@
 }
 
 .header__theme-menu-button {
+  cursor: pointer;
   color: var(--main-color);
   background-color: transparent;
   text-transform: lowercase;
@@ -155,7 +157,7 @@
   text-decoration: none;
 
   &:hover {
-    text-decoration: underline;
+    border-block-end: 1px solid currentColor;
   }
 
   &:focus {
@@ -201,7 +203,7 @@
   column-gap: calc(var(--otstup) / 2);
 }
 
-.blablabla {
+.section__how-hint {
   display: flex;
   flex-direction: column;
   gap: var(--otstup);
@@ -259,6 +261,7 @@
 
 .footer {
   block-size: 100vh;
+  min-block-size: 668px;
   position: relative;
   display: flex;
   align-items: center;

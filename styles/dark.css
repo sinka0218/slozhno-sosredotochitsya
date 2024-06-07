@@ -18,7 +18,7 @@
   --shadow-color: var(--main-color);
   --text-shadow: var(--main-color);
   --rec: visible;
-  --hover-shadow: #32312d40;
+  --hover-shadow: #ff007040;
   --bg-img: url("../images/cover-image-dark.png");
   --border: 1px solid var(--main-color);
 }
