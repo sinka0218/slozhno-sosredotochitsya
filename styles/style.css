@@ -172,13 +172,14 @@
 .section__why {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: repeat(2, 1fr);
   column-gap: calc(var(--otstup) / 2);
   row-gap: var(--otstup);
 }
 
-.section__why .main__title {
-  grid-area: 1 / 1 / 3 / 2;
+.section__why-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--otstup)
 }
 
 .section__what {
